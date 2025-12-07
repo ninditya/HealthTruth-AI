@@ -6,7 +6,7 @@ from google import genai  # gunakan import dari package terbaru
 load_dotenv("env/.env")
 
 # --- App settings ---
-APP_TITLE = "HoaxShield Health AI"
+APP_TITLE = "HealthTruth-AI AI"
 MODEL_NAME = "gemini-2.5-flash"
 EMBED_MODEL = "gemini-embedding-001"
 
