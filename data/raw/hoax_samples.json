@@ -1,0 +1,110 @@
+{
+  "hoax_examples": [
+    {
+      "id": 1,
+      "text": "Minum air panas setiap 30 menit bisa membunuh semua jenis virus dalam tubuh.",
+      "label": "HOAX"
+    },
+    {
+      "id": 2,
+      "text": "Menghirup uap dari air rebusan bawang bisa menyembuhkan COVID dalam satu hari.",
+      "label": "HOAX"
+    },
+    {
+      "id": 3,
+      "text": "Vaksin COVID membuat tubuh menjadi magnet dan bisa menempelkan logam.",
+      "label": "HOAX"
+    },
+    {
+      "id": 4,
+      "text": "Minyak kayu putih yang dioleskan di hidung bisa membunuh virus corona.",
+      "label": "HOAX"
+    },
+    {
+      "id": 5,
+      "text": "Minum perasan lemon campur baking soda bisa menyembuhkan kanker secara alami.",
+      "label": "HOAX"
+    },
+    {
+      "id": 6,
+      "text": "Obat parasetamol mengandung virus berbahaya yang disebarkan melalui tablet putih berpita merah.",
+      "label": "HOAX"
+    },
+    {
+      "id": 7,
+      "text": "Tidur dalam ruangan AC bisa menyebabkan paru-paru membeku dan menimbulkan pneumonia.",
+      "label": "HOAX"
+    },
+    {
+      "id": 8,
+      "text": "Daun kelor bisa menyembuhkan semua jenis penyakit termasuk diabetes dan kanker.",
+      "label": "HOAX"
+    },
+    {
+      "id": 9,
+      "text": "Makan mie instan bersamaan dengan minum es teh dapat menyebabkan batu ginjal.",
+      "label": "HOAX"
+    },
+    {
+      "id": 10,
+      "text": "Kopi dicampur lemon bisa membakar lemak secara instan tanpa olahraga.",
+      "label": "HOAX"
+    },
+    {
+      "id": 11,
+      "text": "Jika Anda tidak buang air besar setiap hari, racun akan menyebar dan menyebabkan kanker usus.",
+      "label": "HOAX"
+    },
+    {
+      "id": 12,
+      "text": "Air kelapa bisa menetralkan racun dari semua jenis obat kimia.",
+      "label": "HOAX"
+    },
+    {
+      "id": 13,
+      "text": "Serum vitamin C bisa membuat kulit kebal dari virus dan bakteri.",
+      "label": "HOAX"
+    },
+    {
+      "id": 14,
+      "text": "Gula merah bisa mengobati demam berdarah hanya dalam sehari.",
+      "label": "HOAX"
+    },
+    {
+      "id": 15,
+      "text": "Minum air rebusan serai dapat membuat tubuh kebal dari COVID-19.",
+      "label": "HOAX"
+    },
+    {
+      "id": 16,
+      "text": "Vaksin HPV menyebabkan infertilitas dan tidak aman untuk perempuan.",
+      "label": "HOAX"
+    },
+    {
+      "id": 17,
+      "text": "Cuka apel bisa menyembuhkan infeksi tenggorokan dan flu lebih kuat dari antibiotik.",
+      "label": "HOAX"
+    },
+    {
+      "id": 18,
+      "text": "Bawang merah ditempelkan di telapak kaki bisa menyerap virus dan menyembuhkan demam.",
+      "label": "HOAX"
+    },
+    {
+      "id": 19,
+      "text": "Sinar matahari jam 12 siang bisa membunuh COVID secara langsung di tubuh.",
+      "label": "HOAX"
+    },
+    {
+      "id": 20,
+      "text": "Minum rebusan jahe setiap hari bisa menggantikan fungsi vaksin.",
+      "label": "HOAX"
+    },
+    {
+      "id": 21,
+      "text": "Apakah perlu angkat jemuran karena ada penyebaran disinfektan dengan pesawat ketika COVID?",
+      "label": "HOAX"
+    }
+
+  ]
+}
