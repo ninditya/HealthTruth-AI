@@ -4,7 +4,7 @@ Sistem RAG untuk mendeteksi hoax kesehatan dari pesan WhatsApp menggunakan Gemin
 ## Fitur
 - Deteksi hoax kesehatan berbasis dokumen resmi WHO/Kemenkes.
 - RAG pipeline: preprocessing → chunking → embedding → FAISS search.
-- UI Streamlit: mode ringkas, detail, dan sumber.
+- UI Streamlit: chatbot interface
 - Dataset 21 hoax WA paling umum.
 
 ## Cara Pakai
