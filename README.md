@@ -1,4 +1,4 @@
-# HealthTruth-AI AI  
+# HealthTruth-AI 
 Sistem RAG untuk mendeteksi hoax kesehatan dari pesan WhatsApp menggunakan Gemini API + FAISS.
 
 ## Fitur
