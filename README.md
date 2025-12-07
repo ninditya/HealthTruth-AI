@@ -22,3 +22,6 @@ Sistem RAG untuk mendeteksi hoax kesehatan dari pesan WhatsApp menggunakan Gemin
 
 5. Jalankan app:  
    `streamlit run app/main.py`
+
+## Live
+https://healthtruth-ai.streamlit.app/
