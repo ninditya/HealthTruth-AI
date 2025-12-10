@@ -24,7 +24,7 @@ with open(CHUNKS_FILE, "r", encoding="utf-8") as f:
     chunks = json.load(f)
 
 # Gunakan hanya sebagian data saat testing agar tidak melebihi kuota
-texts = [c["text"] for c in chunks[:10]]  # contoh: 10 chunk pertama
+texts = [c["text"] for c in chunks[:100]]  # contoh: 10 chunk pertama
 
 
 # --- Build embeddings ---
