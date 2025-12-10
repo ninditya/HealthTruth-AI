@@ -3,18 +3,30 @@ Sistem RAG untuk mendeteksi hoax kesehatan dari pesan WhatsApp menggunakan Gemin
 
 ## Arsitektur
 User (input forward WA)
+
         ↓
+        
 Text/Image Preprocessor
+
         ↓
+        
 Embedding (Gemini Embedding)
+        
         ↓
+        
 Vector DB (FAISS / Chroma)
+        
         ↓
+        
 Retriever
+        
         ↓
+        
 Gemini LLM (RAG Chain)
+        
         ↓
-Output in 3 formats (Ringkas, Detail, Sumber)
+        
+Output
 
 ## Fitur
 - Deteksi hoax kesehatan berbasis dokumen resmi WHO/Kemenkes.
