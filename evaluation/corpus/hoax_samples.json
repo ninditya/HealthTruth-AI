@@ -1,0 +1,17 @@
+{
+  "_note": "CONTOH DATA — kumpulan klaim hoax kesehatan ala pesan WhatsApp untuk menguji pipeline RAG & evaluasi HealthTruth-AI, bukan hasil kurasi resmi.",
+  "hoax_examples": [
+    {"text": "Minum air kelapa hangat bisa menyembuhkan COVID-19 dalam waktu 24 jam."},
+    {"text": "Vaksin COVID-19 mengandung chip microchip untuk melacak pergerakan manusia."},
+    {"text": "Jaringan 5G menyebabkan virus corona menyebar lebih cepat ke tubuh manusia."},
+    {"text": "Mengonsumsi bawang putih mentah setiap hari dapat mencegah infeksi COVID-19."},
+    {"text": "Vaksin MMR menyebabkan autisme pada anak-anak."},
+    {"text": "Rokok elektrik (vape) sama sekali tidak berbahaya bagi kesehatan paru-paru."},
+    {"text": "Berkumur dengan air garam dapat membunuh virus COVID-19 yang ada di tenggorokan."},
+    {"text": "Antibiotik dapat digunakan untuk mengobati flu yang disebabkan oleh virus."},
+    {"text": "Suplemen vitamin C dosis tinggi dapat menyembuhkan COVID-19 secara total."},
+    {"text": "Micin (MSG) menyebabkan kerusakan otak permanen jika dikonsumsi dalam jumlah wajar."},
+    {"text": "Mengoleskan minyak kayu putih ke seluruh tubuh dapat mencegah tertular COVID-19."},
+    {"text": "Ibuprofen terbukti secara ilmiah memperparah gejala COVID-19 sehingga tidak boleh dikonsumsi penderita."}
+  ]
+}

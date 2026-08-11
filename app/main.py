@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore", category=Warning, module="urllib3")
+
 import streamlit as st
 from rag_engine import RAGEngine
 
@@ -5,7 +8,7 @@ st.set_page_config(page_title="HealthTruth AI", layout="wide")
 
 engine = RAGEngine()
 
-st.title("🛡️ HealthTruth AI — Anti Hoax Kesehatan (RAG + Gemini)")
+st.title("🛡️ HealthTruth AI — Anti Hoax Kesehatan (RAG + OpenRouter)")
 
 query = st.text_area("Tulis pesan WhatsApp / klaim kesehatan yang ingin dicek:")
 
@@ -26,4 +29,4 @@ if st.button("Cek Fakta"):
         st.write(answer)
 
 st.markdown("---")
-st.caption("HealthTruth AI — Gemini + RAG + FAISS")
+st.caption("HealthTruth AI — OpenRouter + RAG + FAISS")

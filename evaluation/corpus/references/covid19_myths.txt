@@ -1,0 +1,30 @@
+[CONTOH DATA REFERENSI — bukan dokumen resmi asli, dibuat untuk menguji pipeline RAG & evaluasi HealthTruth-AI]
+
+Mitos dan Fakta Seputar COVID-19
+
+Air kelapa tidak dapat menyembuhkan COVID-19. Air kelapa mengandung elektrolit yang membantu hidrasi tubuh,
+tetapi tidak memiliki kemampuan antivirus untuk melawan SARS-CoV-2. Klaim bahwa air kelapa hangat dapat
+menyembuhkan COVID-19 dalam 24 jam adalah hoax yang beredar luas di media sosial dan tidak didukung bukti
+klinis apa pun dari WHO maupun Kemenkes.
+
+Jaringan seluler 5G tidak menyebabkan atau mempercepat penyebaran virus corona. Virus menyebar melalui
+droplet pernapasan dari orang yang terinfeksi ke orang lain melalui kontak dekat, bukan melalui gelombang
+radio. WHO secara eksplisit membantah klaim yang mengaitkan teknologi 5G dengan penyebaran COVID-19 karena
+virus tidak dapat merambat melalui jaringan telekomunikasi atau gelombang radio.
+
+Berkumur dengan air garam dapat meredakan iritasi dan rasa tidak nyaman di tenggorokan, namun tidak
+terbukti secara ilmiah dapat membunuh virus COVID-19 begitu virus telah masuk dan menginfeksi sel-sel
+saluran pernapasan bagian dalam. Ini berbeda dengan efeknya yang hanya bersifat meredakan gejala permukaan.
+
+Mengoleskan minyak kayu putih ke seluruh tubuh tidak mencegah penularan COVID-19. Minyak kayu putih dapat
+memberikan sensasi hangat dan sedikit melegakan hidung tersumbat, tetapi tidak memiliki sifat antivirus
+yang terbukti secara klinis untuk mencegah infeksi SARS-CoV-2.
+
+Konsumsi vitamin C dosis tinggi dapat mendukung fungsi sistem imun secara umum, tetapi tidak ada bukti
+ilmiah yang menunjukkan bahwa dosis tinggi vitamin C dapat menyembuhkan COVID-19 secara total. Vitamin C
+bukan pengganti perawatan medis atau vaksinasi.
+
+Pada awal pandemi, WHO sempat menyelidiki kekhawatiran bahwa ibuprofen dapat memperparah gejala COVID-19.
+Setelah tinjauan lebih lanjut, WHO menyatakan tidak menemukan cukup bukti untuk merekomendasikan
+penghindaran ibuprofen pada pasien COVID-19, dan tidak melarang penggunaannya. Pasien tetap disarankan
+berkonsultasi dengan tenaga medis sebelum mengonsumsi obat apa pun, termasuk saat bergejala COVID-19.

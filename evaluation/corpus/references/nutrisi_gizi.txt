@@ -1,0 +1,21 @@
+[CONTOH DATA REFERENSI — bukan dokumen resmi asli, dibuat untuk menguji pipeline RAG & evaluasi HealthTruth-AI]
+
+Fakta Seputar Nutrisi dan Gizi
+
+Bawang putih memiliki senyawa dengan sifat antimikroba ringan dalam penelitian laboratorium, namun tidak
+ada bukti uji klinis pada manusia yang menunjukkan bahwa mengonsumsi bawang putih mentah setiap hari dapat
+mencegah infeksi COVID-19 atau penyakit virus lainnya. Bawang putih dapat menjadi bagian dari pola makan
+sehat, tetapi bukan pengganti langkah pencegahan yang terbukti seperti vaksinasi dan cuci tangan.
+
+Asupan air putih yang cukup setiap hari membantu ginjal membuang zat sisa metabolisme melalui urine dan
+membantu mencegah pembentukan batu ginjal. Kemenkes merekomendasikan konsumsi air putih sekitar 8 gelas
+atau setara 2 liter per hari bagi orang dewasa untuk menjaga fungsi ginjal dan keseimbangan cairan tubuh.
+
+WHO merekomendasikan pemberian ASI eksklusif selama 6 bulan pertama kehidupan bayi, tanpa tambahan makanan
+atau minuman lain termasuk air putih, karena ASI pada periode tersebut sudah mencukupi kebutuhan nutrisi
+dan cairan bayi sekaligus memberikan perlindungan imun alami yang tidak dapat digantikan oleh susu formula.
+
+Monosodium glutamat (MSG atau micin) telah dievaluasi oleh berbagai badan pengawas pangan seperti FDA dan
+dinyatakan aman dikonsumsi dalam jumlah wajar sebagai penyedap rasa. Klaim bahwa MSG menyebabkan kerusakan
+otak permanen tidak didukung oleh bukti ilmiah yang kuat; sebagian orang mungkin mengalami sensitivitas
+ringan dan sementara, namun ini berbeda dengan kerusakan permanen.

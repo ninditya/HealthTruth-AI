@@ -1,0 +1,17 @@
+[CONTOH DATA REFERENSI — bukan dokumen resmi asli, dibuat untuk menguji pipeline RAG & evaluasi HealthTruth-AI]
+
+Gaya Hidup dan Kesehatan Jangka Panjang
+
+Rokok elektrik atau vape sering dianggap sepenuhnya aman dibandingkan rokok konvensional, namun klaim ini
+tidak akurat. Sebagian besar produk vape tetap mengandung nikotin yang bersifat adiktif, serta senyawa
+kimia hasil pemanasan cairan (e-liquid) yang dapat mengiritasi dan merusak jaringan paru-paru, terutama
+pada penggunaan jangka panjang dan pada remaja yang sistem pernapasannya masih berkembang.
+
+Paparan sinar matahari pagi selama 10-15 menit membantu kulit mensintesis vitamin D melalui reaksi dengan
+sinar UVB. Vitamin D berperan penting dalam penyerapan kalsium untuk kesehatan tulang serta mendukung
+fungsi sistem imun. Kemenkes merekomendasikan paparan matahari pagi secukupnya sebagai salah satu sumber
+alami vitamin D, di samping asupan dari makanan.
+
+Konsumsi gula berlebih secara terus-menerus berkontribusi terhadap resistensi insulin dan peningkatan berat
+badan atau obesitas, yang merupakan faktor risiko utama berkembangnya diabetes tipe 2. WHO merekomendasikan
+pembatasan asupan gula tambahan harian untuk menjaga kesehatan metabolik jangka panjang.

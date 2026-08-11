@@ -1,65 +1,45 @@
 import os
 import json
-import numpy as np
-import pickle
-import faiss
-from google import genai
-from google.genai import types
+from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 from config import (
     MODEL_NAME,
     EMBED_MODEL,
     CHUNKS_FILE,
-    EMBEDDINGS_FILE,
-    FAISS_INDEX_FILE,
 )
-from prompts import FACT_CHECK_PROMPT  # sesuaikan nama file
+from prompts import FACT_CHECK_PROMPT
+from vector_store import get_backend
 
 class RAGEngine:
     def __init__(self):
-        # --- Init Gemini Client dengan API key ---
-        api_key = os.getenv("GEMINI_API_KEY")
+        api_key = os.getenv("OPENROUTER_API_KEY")
         if not api_key:
-            raise ValueError("GEMINI_API_KEY belum di-set di environment atau .env")
-        self.client = genai.Client(api_key=api_key)
-        self.model = self.client.models
+            raise ValueError("OPENROUTER_API_KEY belum di-set di env/.env")
 
-        # --- Load chunks ---
+        self.client = OpenAI(
+            api_key=api_key,
+            base_url="https://openrouter.ai/api/v1",
+        )
+        self.model_name = MODEL_NAME
+        self.embedder = SentenceTransformer(EMBED_MODEL)
+
         with open(CHUNKS_FILE, "r", encoding="utf-8") as f:
             self.chunks = json.load(f)
 
-        # --- Load embeddings ---
-        if os.path.exists(EMBEDDINGS_FILE):
-            with open(EMBEDDINGS_FILE, "rb") as f:
-                self.embeddings = pickle.load(f)
-        else:
-            self.embeddings = None
-
-        # --- Load FAISS index ---
-        if os.path.exists(FAISS_INDEX_FILE):
-            self.index = faiss.read_index(FAISS_INDEX_FILE)
-        else:
-            self.index = None
+        self.backend = get_backend(self.chunks)
 
     # ------------------------------------
     # EMBEDDING
     # ------------------------------------
     def embed(self, text: str):
-        res = self.client.models.embed_content(
-            model=EMBED_MODEL,
-            contents=[text],
-            config=types.EmbedContentConfig(task_type="SEMANTIC_SIMILARITY")
-        )
-        return np.array(res.embeddings[0].values, dtype="float32")
+        return self.embedder.encode(text, convert_to_numpy=True).astype("float32")
 
     # ------------------------------------
     # RETRIEVER
     # ------------------------------------
     def retrieve(self, query, k=3):
-        if self.index is None or self.embeddings is None:
-            raise RuntimeError("FAISS index atau embeddings belum tersedia. Jalankan build_index.py terlebih dahulu.")
         q_emb = self.embed(query)
-        scores, idxs = self.index.search(np.array([q_emb]), k)
-        return [self.chunks[i] for i in idxs[0]]
+        return self.backend.search(q_emb, k)
 
     # ------------------------------------
     # FACT CHECK USING PROMPT
@@ -69,11 +49,11 @@ class RAGEngine:
         context = "\n\n".join([c["text"] for c in retrieved])
         prompt = FACT_CHECK_PROMPT.format(question=query, context=context)
 
-        res = self.model.generate_content(
-            model=MODEL_NAME,
-            contents=prompt
+        res = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[{"role": "user", "content": prompt}],
         )
-        return res.text
+        return res.choices[0].message.content
 
     # ------------------------------------
     # THREE MODES UI
@@ -102,8 +82,8 @@ INSTRUKSI:
 Jawaban:
 """
 
-        res = self.model.generate_content(
-            model=MODEL_NAME,
-            contents=prompt
+        res = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[{"role": "user", "content": prompt}],
         )
-        return res.text
+        return res.choices[0].message.content

@@ -1,0 +1,13 @@
+[CONTOH DATA REFERENSI — bukan dokumen resmi asli, dibuat untuk menguji pipeline RAG & evaluasi HealthTruth-AI]
+
+Penggunaan Obat yang Tepat
+
+Antibiotik hanya efektif melawan infeksi yang disebabkan oleh bakteri, bukan virus. Flu (influenza) dan
+sebagian besar pilek disebabkan oleh virus, sehingga penggunaan antibiotik untuk mengobatinya tidak akan
+memberikan efek penyembuhan. WHO memperingatkan bahwa penggunaan antibiotik yang tidak tepat, termasuk
+untuk infeksi virus, berkontribusi terhadap resistensi antibiotik yang menjadi ancaman kesehatan global.
+
+Pada awal pandemi COVID-19, sempat beredar kekhawatiran bahwa obat pereda nyeri ibuprofen dapat memperparah
+gejala COVID-19. WHO kemudian meninjau bukti yang tersedia dan menyatakan tidak menemukan cukup bukti untuk
+merekomendasikan penghindaran ibuprofen pada pasien COVID-19. Meski demikian, pasien tetap disarankan
+berkonsultasi dengan tenaga medis sebelum mengonsumsi obat pereda nyeri saat bergejala.

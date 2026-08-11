@@ -1,0 +1,10 @@
+# Evaluation dependencies for HealthTruth-AI (install on top of the root requirements.txt)
+
+deepeval>=1.0.0
+ragas>=0.2.0
+datasets>=2.19.0
+pandas>=2.0.0
+
+# LangChain wrappers used by RAGAS to reach OpenRouter + local embeddings
+langchain-openai>=0.1.0
+langchain-huggingface>=0.0.3

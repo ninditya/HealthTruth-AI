@@ -1,0 +1,17 @@
+[CONTOH DATA REFERENSI — bukan dokumen resmi asli, dibuat untuk menguji pipeline RAG & evaluasi HealthTruth-AI]
+
+Langkah Pencegahan Penularan Penyakit Dasar
+
+Mencuci tangan dengan sabun selama minimal 20 detik terbukti efektif menghilangkan kuman, termasuk virus
+dan bakteri, dari permukaan kulit tangan. Sabun bekerja dengan meluruhkan lapisan lipid pada selubung virus
+tertentu sekaligus mengangkat kotoran dan mikroorganisme sehingga mudah terbilas air. WHO dan CDC secara
+konsisten merekomendasikan durasi minimal 20 detik untuk cuci tangan yang efektif.
+
+Penggunaan masker terbukti secara ilmiah dapat mengurangi penyebaran droplet pernapasan, yang merupakan
+salah satu jalur utama penularan penyakit saluran pernapasan seperti flu dan COVID-19. Masker bekerja
+sebagai penghalang fisik yang menahan sebagian besar droplet saat seseorang batuk, bersin, atau berbicara.
+
+Hand sanitizer berbasis alkohol dengan konsentrasi minimal 60% direkomendasikan CDC dan WHO sebagai
+alternatif saat air dan sabun tidak tersedia. Pada konsentrasi tersebut, alkohol efektif menonaktifkan
+sebagian besar virus dan bakteri di permukaan tangan, meskipun tetap tidak seefektif cuci tangan dengan
+sabun dan air mengalir jika tangan tampak kotor secara kasat mata.

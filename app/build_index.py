@@ -1,20 +1,9 @@
-import os
 import json
-import pickle
-import numpy as np
-import faiss
-from google import genai
-from google.genai import types
-from config import (
-    EMBED_MODEL, CHUNKS_FILE, EMBEDDINGS_FILE, FAISS_INDEX_FILE
-)
+import os
 
-# --- Init Gemini Client dengan API key ---
-api_key = os.getenv("GEMINI_API_KEY")
-if not api_key:
-    raise ValueError("GEMINI_API_KEY belum di-set di environment atau .env")
-
-client = genai.Client(api_key=api_key)
+from sentence_transformers import SentenceTransformer
+from config import EMBED_MODEL, CHUNKS_FILE, VECTOR_BACKEND
+from vector_store import get_backend
 
 # --- Load chunks ---
 if not os.path.exists(CHUNKS_FILE):
@@ -23,37 +12,18 @@ if not os.path.exists(CHUNKS_FILE):
 with open(CHUNKS_FILE, "r", encoding="utf-8") as f:
     chunks = json.load(f)
 
-# Gunakan hanya sebagian data saat testing agar tidak melebihi kuota
-texts = [c["text"] for c in chunks[:100]]  # contoh: 10 chunk pertama
-
+texts = [c["text"] for c in chunks]
 
 # --- Build embeddings ---
-emb_vectors = []
+print(f"[INFO] Loading embedding model '{EMBED_MODEL}'...")
+embedder = SentenceTransformer(EMBED_MODEL)
+
 print(f"[INFO] Embedding {len(texts)} chunks...")
+vectors = embedder.encode(texts, convert_to_numpy=True, show_progress_bar=True).astype("float32")
 
-for t in texts:
-    res = client.models.embed_content(
-        model=EMBED_MODEL,   # contoh: "gemini-embedding-001"
-        contents=[t],
-        config=types.EmbedContentConfig(task_type="SEMANTIC_SIMILARITY")
-    )
-    # Gemini v1 API → embeddings ada di .embeddings
-    vector = np.array(res.embeddings[0].values, dtype="float32")
-    emb_vectors.append(vector)
+# --- Build index on the configured backend (faiss/qdrant) ---
+print(f"[INFO] Building index using backend='{VECTOR_BACKEND}'...")
+backend = get_backend(chunks)
+backend.build(chunks, vectors)
 
-# Stack agar lebih stabil
-emb_vectors = np.stack(emb_vectors).astype("float32")
-
-# --- Build FAISS index ---
-print("[INFO] Building FAISS index...")
-index = faiss.IndexFlatL2(emb_vectors.shape[1])
-index.add(emb_vectors)
-
-# --- Save FAISS index ---
-faiss.write_index(index, FAISS_INDEX_FILE)
-
-# --- Save raw embeddings ---
-with open(EMBEDDINGS_FILE, "wb") as f:
-    pickle.dump(emb_vectors, f)
-
-print("[SUCCESS] FAISS index built and embeddings stored.")
+print("[SUCCESS] Vector index built and stored.")

@@ -1,0 +1,20 @@
+[CONTOH DATA REFERENSI — bukan dokumen resmi asli, dibuat untuk menguji pipeline RAG & evaluasi HealthTruth-AI]
+
+Pertanyaan Umum Seputar Vaksin
+
+Vaksin COVID-19 tidak mengandung microchip, cip pelacak, atau perangkat elektronik dalam bentuk apa pun.
+Komposisi setiap vaksin COVID-19 yang beredar telah diverifikasi secara terbuka oleh badan regulator obat
+di berbagai negara serta oleh WHO. Kandungan vaksin umumnya berupa bahan aktif yang memicu respons imun
+(seperti mRNA atau protein virus yang dilemahkan), stabilizer, dan bahan pendukung lain yang telah diuji
+keamanannya, tanpa komponen pelacak apa pun.
+
+Klaim bahwa vaksin MMR (Measles, Mumps, Rubella) menyebabkan autisme pada anak berasal dari sebuah studi
+tahun 1998 yang kemudian dicabut (retracted) oleh jurnal penerbitnya karena ditemukan data yang dimanipulasi
+dan pelanggaran etik penelitian. Sejak saat itu, puluhan studi besar dengan jutaan partisipan di berbagai
+negara tidak menemukan hubungan sebab-akibat antara vaksin MMR dan autisme. Vaksin MMR tetap direkomendasikan
+sebagai bagian dari imunisasi dasar anak oleh WHO dan Kemenkes.
+
+Vaksinasi influenza (flu) tahunan direkomendasikan oleh WHO dan Kemenkes khususnya untuk kelompok berisiko
+tinggi, termasuk lansia, karena sistem imun yang menurun seiring usia membuat kelompok ini lebih rentan
+mengalami komplikasi serius akibat infeksi influenza, seperti pneumonia. Vaksinasi tahunan diperlukan karena
+virus influenza terus bermutasi setiap musim.

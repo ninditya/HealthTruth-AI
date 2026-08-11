@@ -14,10 +14,10 @@ Rules:
 - Give final answer: HOAX / BENAR / TIDAK LENGKAP.
 
 Output format JSON:
-{
+{{
   "status": "...",
   "summary": "...",
   "explanation": "...",
   "sources": [...]
-}
+}}
 """

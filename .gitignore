@@ -1,1 +1,31 @@
+# Environment
 env/.env
+.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data & model files
+data/raw/
+data/processed/
+vectorstore/
+
+# Evaluation outputs (evaluation/corpus/ stays tracked — it's the eval dataset's source corpus)
+evaluation/index/
+evaluation/results/
+.deepeval/
+.deepeval-cache.json
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

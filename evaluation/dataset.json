@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ht-001",
+    "category": "covid19",
+    "claim": "Minum air kelapa hangat bisa menyembuhkan COVID-19 dalam waktu 24 jam.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Tidak ada bukti ilmiah dari WHO, CDC, maupun Kemenkes yang menunjukkan air kelapa dapat menyembuhkan COVID-19. Air kelapa hanya membantu hidrasi, bukan pengobatan antivirus."
+  },
+  {
+    "id": "ht-002",
+    "category": "vaksin",
+    "claim": "Vaksin COVID-19 mengandung chip microchip untuk melacak pergerakan manusia.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Vaksin COVID-19 tidak mengandung microchip atau perangkat pelacak apa pun. Komposisi vaksin telah diverifikasi secara terbuka oleh WHO, Kemenkes, dan lembaga regulator obat di berbagai negara."
+  },
+  {
+    "id": "ht-003",
+    "category": "pencegahan",
+    "claim": "Mencuci tangan dengan sabun selama minimal 20 detik efektif mencegah penyebaran virus.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. WHO dan CDC merekomendasikan cuci tangan dengan sabun selama minimal 20 detik karena efektif meluruhkan lapisan lipid virus dan menghilangkan kuman di permukaan kulit."
+  },
+  {
+    "id": "ht-004",
+    "category": "teknologi",
+    "claim": "Jaringan 5G menyebabkan virus corona menyebar lebih cepat ke tubuh manusia.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Virus menyebar melalui droplet pernapasan dan kontak, bukan melalui gelombang radio. WHO menegaskan tidak ada hubungan antara jaringan 5G dan penyebaran virus."
+  },
+  {
+    "id": "ht-005",
+    "category": "nutrisi",
+    "claim": "Mengonsumsi bawang putih mentah setiap hari dapat mencegah infeksi COVID-19.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Bawang putih memiliki sifat antimikroba ringan, tetapi tidak ada bukti klinis bahwa mengonsumsinya dapat mencegah infeksi COVID-19."
+  },
+  {
+    "id": "ht-006",
+    "category": "vaksin",
+    "claim": "Vaksin MMR menyebabkan autisme pada anak-anak.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Studi yang pertama kali mengaitkan vaksin MMR dengan autisme telah dicabut karena data yang dimanipulasi. Banyak penelitian besar berikutnya tidak menemukan hubungan sebab-akibat antara vaksin MMR dan autisme."
+  },
+  {
+    "id": "ht-007",
+    "category": "gaya-hidup",
+    "claim": "Rokok elektrik (vape) sama sekali tidak berbahaya bagi kesehatan paru-paru.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Meskipun berbeda dari rokok konvensional, rokok elektrik tetap mengandung nikotin dan zat kimia yang dapat merusak paru-paru serta menyebabkan kecanduan, terutama pada remaja."
+  },
+  {
+    "id": "ht-008",
+    "category": "nutrisi",
+    "claim": "Minum air putih yang cukup setiap hari membantu menjaga fungsi ginjal.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. Asupan cairan yang cukup membantu ginjal membuang zat sisa metabolisme dan mencegah pembentukan batu ginjal, sebagaimana direkomendasikan oleh Kemenkes dan berbagai panduan kesehatan."
+  },
+  {
+    "id": "ht-009",
+    "category": "gaya-hidup",
+    "claim": "Berjemur di bawah sinar matahari pagi selama 10-15 menit membantu tubuh memproduksi vitamin D.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. Paparan sinar UVB matahari pagi membantu kulit mensintesis vitamin D, yang penting untuk kesehatan tulang dan sistem imun, sesuai rekomendasi Kemenkes."
+  },
+  {
+    "id": "ht-010",
+    "category": "covid19",
+    "claim": "Berkumur dengan air garam dapat membunuh virus COVID-19 yang ada di tenggorokan.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Berkumur air garam dapat meredakan iritasi tenggorokan, tetapi tidak terbukti membunuh virus COVID-19 begitu virus sudah menginfeksi sel tubuh."
+  },
+  {
+    "id": "ht-011",
+    "category": "obat",
+    "claim": "Antibiotik dapat digunakan untuk mengobati flu yang disebabkan oleh virus.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Antibiotik hanya efektif melawan bakteri, bukan virus. Menggunakan antibiotik untuk flu tidak akan menyembuhkan dan dapat memicu resistensi antibiotik, sesuai peringatan WHO."
+  },
+  {
+    "id": "ht-012",
+    "category": "vaksin",
+    "claim": "Vaksinasi influenza tahunan direkomendasikan untuk kelompok lansia.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. WHO dan Kemenkes merekomendasikan vaksinasi influenza tahunan untuk lansia karena kelompok ini memiliki risiko komplikasi lebih tinggi akibat infeksi influenza."
+  },
+  {
+    "id": "ht-013",
+    "category": "pencegahan",
+    "claim": "Menggunakan masker dapat membantu mengurangi penyebaran droplet pernapasan ke orang lain.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. Masker terbukti secara ilmiah dapat menahan droplet pernapasan yang menjadi salah satu jalur utama penularan penyakit pernapasan, sesuai panduan WHO dan CDC."
+  },
+  {
+    "id": "ht-014",
+    "category": "obat",
+    "claim": "Suplemen vitamin C dosis tinggi dapat menyembuhkan COVID-19 secara total.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Vitamin C dapat mendukung fungsi sistem imun secara umum, tetapi tidak ada bukti klinis bahwa dosis tinggi vitamin C dapat menyembuhkan COVID-19 secara total."
+  },
+  {
+    "id": "ht-015",
+    "category": "nutrisi",
+    "claim": "ASI eksklusif selama 6 bulan pertama direkomendasikan WHO untuk bayi.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. WHO merekomendasikan pemberian ASI eksklusif selama 6 bulan pertama kehidupan bayi karena memberikan nutrisi dan perlindungan imun yang optimal."
+  },
+  {
+    "id": "ht-016",
+    "category": "nutrisi",
+    "claim": "Micin (MSG) menyebabkan kerusakan otak permanen jika dikonsumsi dalam jumlah wajar.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Badan pengawas pangan seperti FDA dan otoritas kesehatan lain menyatakan MSG aman dikonsumsi dalam jumlah wajar dan tidak menyebabkan kerusakan otak permanen."
+  },
+  {
+    "id": "ht-017",
+    "category": "pencegahan",
+    "claim": "Hand sanitizer berbasis alkohol dengan konsentrasi minimal 60% efektif membunuh sebagian besar virus dan bakteri di tangan.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. CDC dan WHO merekomendasikan hand sanitizer berbasis alkohol minimal 60% sebagai alternatif saat air dan sabun tidak tersedia, karena efektif menonaktifkan sebagian besar patogen."
+  },
+  {
+    "id": "ht-018",
+    "category": "covid19",
+    "claim": "Mengoleskan minyak kayu putih ke seluruh tubuh dapat mencegah tertular COVID-19.",
+    "expected_status": "HOAX",
+    "reference_answer": "Klaim ini hoax. Minyak kayu putih dapat memberikan efek hangat dan melegakan pernapasan ringan, tetapi tidak memiliki bukti ilmiah sebagai pencegah infeksi COVID-19."
+  },
+  {
+    "id": "ht-019",
+    "category": "gaya-hidup",
+    "claim": "Konsumsi gula berlebih secara terus-menerus dapat meningkatkan risiko diabetes tipe 2.",
+    "expected_status": "BENAR",
+    "reference_answer": "Klaim ini benar. Konsumsi gula berlebih dalam jangka panjang berkontribusi terhadap resistensi insulin dan obesitas, yang merupakan faktor risiko utama diabetes tipe 2 menurut WHO dan Kemenkes."
+  },
+  {
+    "id": "ht-020",
+    "category": "obat",
+    "claim": "Ibuprofen terbukti secara ilmiah memperparah gejala COVID-19 sehingga tidak boleh dikonsumsi penderita.",
+    "expected_status": "TIDAK LENGKAP",
+    "reference_answer": "Klaim ini tidak lengkap. WHO sempat menyelidiki kekhawatiran ini pada awal pandemi, namun tidak menemukan cukup bukti bahwa ibuprofen memperparah COVID-19 dan tidak melarang penggunaannya. Pasien tetap disarankan berkonsultasi dengan tenaga medis sebelum mengonsumsi obat apa pun."
+  }
+]
